@@ -1,0 +1,48 @@
+/* Navigation Bar */
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    padding: 0 30px 0 30px;
+}
+.contactUSButton{
+    background-color: #F06000;
+    border-radius: 10px;
+}
+/* Intro Section */
+
+            /* Left Column */
+html,
+body {
+    height: 100%;
+}
+
+.parent {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    width: 450px;
+    height: 200px;
+    padding: 2%;
+    border-radius: 10px;
+}
+.learnmore_button{
+    background-color: #F06000;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.hiremeButton{
+    outline: none;
+    border-radius: 10px;
+    border-color: #F06000;
+    padding: 10px;
+}
+
+/* About Me Section */
