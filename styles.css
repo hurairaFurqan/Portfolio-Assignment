@@ -60,6 +60,13 @@ body {
     padding: 10px;
 }
 
+/* Right Column */
+.image_Size {
+    width: 400px;
+    height: 400px;
+    margin-top: 70px
+}
+
 /* About Me Section */
 .container_flex {
     display: flex;
@@ -67,8 +74,13 @@ body {
 }
 
 .button_download {
-    margin-left: 30px;
-    width: 30px;
+    width: 210px;
+    margin-left: 180px;
+    background-color: #f06000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
 }
 
 
@@ -141,12 +153,27 @@ body {
 
 
 /* Media Quries */
+
+body button:hover{
+    background-color: beige;
+    color: black;
+}
+
 @media screen and (max-width:600px) {
-    .mynavtop a:not(:first-child){
-        display: none;
-    }
-    .mynavtop a.icon{
-        float: right;
+
+    #LColumn-Intro {
         display: flex;
+        height: 300px;
+    }
+
+    #RColumn-Intro {
+        display: flex;
+        height: 350px;
+        align-items: flex-end;
+    }
+
+    #RColumn-Intro img {
+        width: 300px;
+        height: 300px;
     }
 }

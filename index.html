@@ -18,17 +18,15 @@
 <body>
     <!-- Navigation Bar -->
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbarMEdia">
             <div class="container">
                 <img src="C:\Users\Hp\OneDrive\Documents\MernStack BootCamp\Assignment Portfolio\imgs\logo.png"
                     alt="Logo" style="width: 30px; height: 30px; margin-right: 5px" />
                 <a class="navbar-brand mb-0 h1" href="#">Huraira Furqan</a>
-                <!-- 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                 -->
 
                 <div class="collapse navbar-collapse flex-container" id="navbarNav">
                     <ul class="navbar-nav mynavtop">
@@ -59,7 +57,7 @@
     <div class="container-fluid" style="background-color: rgb(243, 242, 242)" id="HomeDiv">
         <div class="row">
             <!-- Left Column -->
-            <div class="col parent">
+            <div class="col parent" id="LColumn-Intro">
                 <div class="child">
                     <p>Get every Single solution</p>
                     <h2>I'm a Mern Stack Developer<br />Huraira Furqan</h2>
@@ -73,9 +71,10 @@
                 </div>
             </div>
             <!-- Right Column -->
-            <div class="col parent">
-                <img src="C:\Users\Hp\OneDrive\Documents\MernStack BootCamp\Assignment Portfolio\imgs\logo.png"
-                    alt="Reference Image" style="width: 400px; height: 400px; margin-top: 70px" />
+            <div class="col parent" id="RColumn-Intro">
+                <img class="image_Size"
+                    src="C:\Users\Hp\OneDrive\Documents\MernStack BootCamp\Assignment Portfolio\imgs\logo.png"
+                    alt="Reference Image" />
             </div>
         </div>
     </div>
@@ -95,7 +94,7 @@
         </p>
         <div class="container_flex" style="margin-top: 20px" id="resumeDiv">
             <h2>Contact Details</h2>
-            <button type="button" style="margin-left: 300px; background-color: #f06000; color: white" class="btn">
+            <button type="button" class="button_download">
                 <i class="fa fa-download fa-1x" style="padding-right: 10px; color: white"></i>Download Resume
             </button>
         </div>
@@ -226,7 +225,7 @@
 
     <!-- Leave a Message Form -->
 
-    <div class="container" style="background-color: rgb(243, 242, 242)"id="leaveMDiv">
+    <div class="container" style="background-color: rgb(243, 242, 242)" id="leaveMDiv">
         <div class="row">
             <!-- Left COlumn -->
             <div class="col d-flex flex-column" style=" padding-left: 40px">
@@ -243,14 +242,14 @@
 
                 <br><br>
                 <div class="container_flex" style="justify-content: space-between">
-                    <button type="button" class="btn btn-circle btn-xl">
-                        <i class="fa-brands fa-facebook"></i>
+                    <button type="button" class="btn btn-circle btn-xl fa fa-facebook"
+                        onclick="window.location.href='https://www.facebook.com/';"><a href=""></a>
                     </button>
-                    <button type="button" class="btn btn-circle btn-xl">
-                        <i class="fa-brands fa-linkedin"></i>
+                    <button type="button" class="btn btn-circle btn-xl fa fa-linkedin"
+                        onclick="window.location.href='https://www.linkedin.com/in/sheikh-huraira-7a4991200/';">
                     </button>
-                    <button type="button" class="btn btn-circle btn-xl">
-                        <i class="fa-brands fa-github-square"></i>
+                    <button type="button" class="btn btn-circle btn-xl fa fa-github-square"
+                        onclick="window.location.href='https://github.com/imsheik/MernStackAssignments';">
                     </button>
                 </div>
             </div>
