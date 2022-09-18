@@ -8,9 +8,19 @@ nav ul li {
     padding: 0 30px 0 30px;
 }
 
-.contactUSButton {
+/* .contactUSButton {
+    
+} */
+#navbarNav a:active {
     background-color: #F06000;
     border-radius: 10px;
+    color: white;
+}
+
+#navbarNav a:hover {
+    background-color: #F06000;
+    color: white;
+    border-radius: 5px;
 }
 
 /* Intro Section */
@@ -112,7 +122,7 @@ body {
 
 
 /* Leave a Message Section */
-.leaveMessage{
+.leaveMessage {
     /* padding-left: 40px; */
     margin-top: 30px;
     font-family: revert;
@@ -126,4 +136,17 @@ body {
     border-radius: 60px;
     text-align: center;
     background-color: #F06000;
+}
+
+
+
+/* Media Quries */
+@media screen and (max-width:600px) {
+    .mynavtop a:not(:first-child){
+        display: none;
+    }
+    .mynavtop a.icon{
+        float: right;
+        display: flex;
+    }
 }

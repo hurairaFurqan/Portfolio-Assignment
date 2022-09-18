@@ -31,24 +31,24 @@
                  -->
 
                 <div class="collapse navbar-collapse flex-container" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mynavtop">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" style="color: #11abb0">Home</a>
+                            <a class="nav-link" aria-current="page" href="#HomeDiv">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#AboutMeDiv">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
+                            <a class="nav-link" href="#resumeDiv">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
+                            <a class="nav-link" href="#WorkDiv">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
+                            <a class="nav-link" href="#testiDiv">Testimonials</a>
                         </li>
                         <li class="nav-item contactUSButton">
-                            <a class="nav-link" href="#" style="color: white">Contact</a>
+                            <a class="nav-link" href="#leaveMDiv">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -56,7 +56,7 @@
         </nav>
     </div>
     <!-- Intro SECTION -->
-    <div class="container-fluid" style="background-color: rgb(243, 242, 242)">
+    <div class="container-fluid" style="background-color: rgb(243, 242, 242)" id="HomeDiv">
         <div class="row">
             <!-- Left Column -->
             <div class="col parent">
@@ -81,7 +81,7 @@
     </div>
 
     <!-- About Me Section -->
-    <div class="container" style="margin-top: 30px">
+    <div class="container" style="margin-top: 30px" id="AboutMeDiv">
         <h1 class="display-5" style="font-family: fantasy">ABOUT ME</h1>
 
         <p style="text-align: justify">
@@ -93,7 +93,7 @@
             Software Engineering skills, enhance these skills and to learn some new
             skills by working in professional environment.
         </p>
-        <div class="container_flex" style="margin-top: 20px">
+        <div class="container_flex" style="margin-top: 20px" id="resumeDiv">
             <h2>Contact Details</h2>
             <button type="button" style="margin-left: 300px; background-color: #f06000; color: white" class="btn">
                 <i class="fa fa-download fa-1x" style="padding-right: 10px; color: white"></i>Download Resume
@@ -107,7 +107,7 @@
         </ul>
     </div>
     <!-- Work -->
-    <div class="container" style="background-color: rgb(243, 242, 242)">
+    <div class="container" style="background-color: rgb(243, 242, 242)" id="WorkDiv">
         <h1 class="display-5" style="font-family: fantasy">Work Experience</h1>
         <div class="row">
             <!-- Work Experience 1 -->
@@ -160,7 +160,7 @@
 
     <!-- Testimonials -->
 
-    <div class="container" style="height: 350px; background-color: rgb(243, 242, 242)">
+    <div class="container" style="height: 350px; background-color: rgb(243, 242, 242)" id="testiDiv">
         <h1 class="display-5 mt-4" style="font-family: fantasy">Testimonails</h1>
         <div id="carouselExampleControls" class="carousel slide parentCrousel" data-bs-ride="carousel">
             <div class="carousel-inner childCrousel" style="text-align: center">
@@ -226,7 +226,7 @@
 
     <!-- Leave a Message Form -->
 
-    <div class="container" style="background-color: rgb(243, 242, 242)">
+    <div class="container" style="background-color: rgb(243, 242, 242)"id="leaveMDiv">
         <div class="row">
             <!-- Left COlumn -->
             <div class="col d-flex flex-column" style=" padding-left: 40px">
@@ -272,7 +272,8 @@
                                 placeholder="Your Message"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary mt-4" style="align-items: flex-end;">Send Message</button>
+                        <button type="submit" class="btn btn-primary mt-4" style="align-items: flex-end;">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
